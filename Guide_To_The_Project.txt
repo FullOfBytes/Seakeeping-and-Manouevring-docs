@@ -1,0 +1,23 @@
+1- Derive the equations of motion :
+ You should find the mathematical model of the controlled system, in our case is the mouvement of a ship on sea.
+ To derive these equations you should have some background about Kinematics equations of motion of a 3D rigid body in space. {6 D.O.F (Degrees Of Freedom)}.
+
+ We use the Newton's Second Law for the translational mouvements on X,Y,Z :
+
+ 	SUM(FORCES_on_that_axe) = Masse * Acceleration_on_that_axe
+
+ We Use the Newton's Second Law for the rotations on X,Y,Z:
+
+ 	SUM(Torques_on_that_axe) = Moment_of_Inertia * Angular_Acceleration
+
+
+Overall there are 3 translational mouvements and 3 Rotations = 6 DOF.
+
+from the equation, we should derive the relationship we need, for our work we need to find the relation between the heading (YAW) angle (the parameter to be controlled) and the rudder angle (action given).
+
+In literature you will find a lots of previous works that derive this relationship, but the remarkable one is the one done by NOMOTO.
+
+There is the 1st order NOMOTO model, where he makes a lots of assumptions to get this simple model (the one used by a lots hobbyists and for simple small models like the one we used in our study). There is a 2nd order NOMOTO model too for more advanced studies.
+ 
+
+
